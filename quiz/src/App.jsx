@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
-import Home from './Components/Home';
+import React from "react";
+import "./App.css";
+import Home from "./Components/Home";
+import Quiz from "./Components/Quiz";
+import Result from "./Components/Result";
 
 function App() {
   return (
-    <div className="App">
-        <Home/>
-    </div>
+    <>
+      <Home />
+      <Quiz />
+      <Result />
+    </>
   );
 }
 
